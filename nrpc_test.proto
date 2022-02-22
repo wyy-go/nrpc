@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package nrpc;
+option go_package = "github.com/wyy-go/nrpc";
+
+message DummyMessage {
+    string foobar = 1;
+}
